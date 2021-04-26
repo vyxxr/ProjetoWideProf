@@ -40,7 +40,9 @@ export default class App extends Component {
 
         <View style={styles.signUpContainer}>
           <TouchableOpacity
-            onPress={() => {}}
+            onPress={() => {
+              this.props.navigation.navigate('SignUp')
+            }}
           >
             <Text style={styles.textSignUp}>Registre-se</Text>
           </TouchableOpacity>
