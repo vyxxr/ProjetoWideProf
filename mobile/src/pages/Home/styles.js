@@ -22,6 +22,7 @@ export default StyleSheet.create({
 
   service: {
     height: 200,
+    marginBottom: 40
   },
 
   title: {
